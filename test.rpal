@@ -1,0 +1,16 @@
+let
+    val x = 10;
+    val y = 20;
+    val str = ''''Hello, World!'''';
+    val arr = [1, 2, 3, 4, 5];
+    val isTrue = true;
+    val isFalse = false;
+    val add = fn a => fn b => a + b;
+    val sum = add x y;
+in
+    x + y;
+    str;
+    arr;
+    isTrue;
+    isFalse;
+    sum;
